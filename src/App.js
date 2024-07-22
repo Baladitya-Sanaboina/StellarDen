@@ -4,6 +4,8 @@ import NavBar from "./Components/Navbar/index";
 import Home from "./Components/home/index";
 import BrandStory from "./Components/BrandStory/index";
 import Cart from "./Components/Cart/index";
+import Footer from "./Components/Footer/index";
+import NotFound from "./Components/NotFound/index";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import About from "./Components/about/index";
 const App = () => {
@@ -16,7 +18,9 @@ const App = () => {
         <Route exact path="/products" Component={Products} />
         <Route exact path="/Brandstory" Component={BrandStory} />
         <Route exact path="/cart" Component={Cart} />
+        <Route path="*" Component={NotFound} />
       </Routes>
+      <Footer />
     </BrowserRouter>
   );
 };
