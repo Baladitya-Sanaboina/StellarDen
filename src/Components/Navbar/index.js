@@ -51,6 +51,11 @@ const NavBar = (props) => {
               Our Brand Story
             </a>
           </li>
+          <li className="nav-item">
+            <a href="/privacy" previewlistener="true" className="nav-link">
+              Privacy Policy
+            </a>
+          </li>
         </ul>
         <div className="nav-actions">
           <a className="nav-cart" href="/cart" previewlistener="true">
