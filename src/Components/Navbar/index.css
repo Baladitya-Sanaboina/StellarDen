@@ -1,0 +1,235 @@
+.nav-container {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  height: 80px;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+}
+
+.nav-inner {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  -webkit-box-align: center;
+  align-items: center;
+  margin: 0px 179px;
+  padding: 0px;
+  box-sizing: border-box;
+  width: 90vw;
+  max-width: 1170px;
+}
+
+.nav-section {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+}
+
+.nav-logo-link {
+  text-decoration: none solid rgb(0, 0, 238);
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.nav-logo {
+  margin: 0px 0px 0px -15px;
+  padding: 0px;
+  box-sizing: border-box;
+  width: 175px;
+  margin-left: -15px;
+}
+
+.nav-menu-button {
+  display: none;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  background: rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box
+    border-box;
+  border: 0px none rgba(0, 0, 0, 0);
+  color: rgb(95, 124, 171);
+  cursor: pointer;
+}
+
+.nav-menu-icon {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-size: 32px;
+}
+
+.nav-menu-path {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.nav-links {
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.nav-item {
+  margin: 0px 8px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.nav-link {
+  color: rgb(50, 77, 103);
+  font-size: 16px;
+  text-transform: capitalize;
+  letter-spacing: 1.6px;
+  padding: 8px;
+  text-decoration: none solid rgb(50, 77, 103);
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.nav-actions {
+  display: grid;
+  grid-template-columns: auto auto;
+  -webkit-box-align: center;
+  align-items: center;
+  gap: 1.5rem;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.nav-cart {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  color: rgb(50, 77, 103);
+  font-size: 16px;
+  text-transform: capitalize;
+  letter-spacing: 1.6px;
+  text-decoration: none solid rgb(50, 77, 103);
+}
+
+.nav-cart-icon {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  margin: 0px 0px 0px 8px;
+  padding: 0px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.nav-cart-svg {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-size: 20px;
+}
+
+.nav-cart-path {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.nav-cart-count {
+  position: absolute;
+  top: -10px;
+  right: -16px;
+  background: rgb(204, 48, 48) none repeat scroll 0% 0% / auto padding-box
+    border-box;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -moz-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -moz-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: 12px;
+  color: rgb(255, 255, 255);
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.nav-login-button {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box
+    border-box;
+  border: 0px none rgba(0, 0, 0, 0);
+  color: rgb(50, 77, 103);
+  font-size: 16px;
+  text-transform: capitalize;
+  letter-spacing: 1.6px;
+  cursor: pointer;
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.nav-login-icon {
+  margin: 0px 0px 0px 8px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-size: 20px;
+}
+
+.nav-login-path {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+@media only screen and (max-width: 991px) {
+  .nav-inner {
+    margin: 0px 24px;
+    padding: 0px;
+    box-sizing: border-box;
+    width: 100vw;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .nav-links {
+    display: none;
+  }
+
+  .nav-menu-button {
+    display: flex;
+  }
+
+  .nav-cart {
+    display: none;
+  }
+
+  .nav-login-button {
+    display: none;
+  }
+}
